@@ -1,0 +1,8 @@
+[tools]
+python = '3.11'
+'pipx:uv' = 'latest'
+'pipx:ruff' = 'latest'
+node = '20'
+
+[settings]
+experimental = true
