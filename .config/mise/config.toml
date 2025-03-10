@@ -1,8 +1,15 @@
 [tools]
 python = '3.11'
-'pipx:uv' = 'latest'
-'pipx:ruff' = 'latest'
+ruby = '3.3'
 node = '20'
+gcloud = "512.0.0"
+zig = "latest"
+rust = "latest"
+
+"pipx:uv" = "latest"
+"pipx:ruff" = "latest"
+"go:github.com/jesseduffield/lazygit" = "v0.47.2"
+"cargo:sheldon" = "0.8.1"
 
 [settings]
 experimental = true
