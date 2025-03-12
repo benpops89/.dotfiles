@@ -18,4 +18,6 @@
   features = catppuccin-macchiato
   side-by-side = true
 [merge]
-  conflictstyle = zdiff3
+  # Need to be on >= 2.35 to use zdiff3
+  # Change when it's available
+  conflictstyle = diff3
