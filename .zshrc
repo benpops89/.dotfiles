@@ -62,6 +62,5 @@ bindkey  "^[[3~"  delete-char
 eval "$(mise activate zsh)"
 eval "$(fzf --zsh)"
 eval "$(zoxide init zsh)"
-eval "$(direnv hook zsh)"
 eval "$(sheldon source)"
 eval "$(starship init zsh)"
