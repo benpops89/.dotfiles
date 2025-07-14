@@ -6,7 +6,7 @@ return {
       "goimports",
       "gopls",
       "ruff",
-      "ruff-lsp",
+      "templ",
     })
   end,
 }
