@@ -6,10 +6,35 @@ gcloud = "512.0.0"
 zig = "latest"
 rust = "latest"
 
-"pipx:uv" = "latest"
-"pipx:ruff" = "latest"
-"go:github.com/jesseduffield/lazygit" = "v0.47.2"
-"cargo:sheldon" = "0.8.1"
+# Aqua backend
+"aqua:kubernetes/kubectl" = "1.33.2"
+"aqua:helm/helm" = "v3.18.4"
+"aqua:hashicorp/terraform" = "1.12.2"
+"aqua:gruntwork-io/terragrunt" = "v0.83.1"
+
+# Ubi backend
+"ubi:FiloSottile/age" = "v1.2.0"
+"ubi:sharkdp/bat" = "v0.25.0"
+"ubi:sharkdp/fd" = "v10.2.0"
+"ubi:BurntSushi/ripgrep" = { version = "14.1.1", exe = "rg"}
+"ubi:eza-community/eza" = "v0.22.0"
+"ubi:jqlang/jq" = "jq-1.8.1"
+"ubi:mikefarah/yq" = "v4.45.4"
+"ubi:jesseduffield/lazygit" = "v0.47.2"
+"ubi:astral-sh/uv" = "0.7.20"
+"ubi:getsops/sops" = "v3.10.2"
+"ubi:ajeetdsouza/zoxide" = "0.9.8"
+"ubi:starship/starship" = "v1.23.0"
+"ubi:ducaale/xh" = "v0.24.1"
+"ubi:zellij-org/zellij" = "v0.42.2"
+"ubi:dandavison/delta" = "0.18.2"
+"ubi:siderolabs/talos" = { version = "v1.10.5", rename_exe = "talosctl"}
+"ubi:jj-vcs/jj" = "v0.31.0"
+"ubi:mongodb-js/mongosh" = "2.5.5"
+"ubi:rossmacarthur/sheldon" = "0.8.4"
+"ubi:antonmedv/fx" = "37.0.1"
+
+watchexec = "latest"
 
 [settings]
 experimental = true
