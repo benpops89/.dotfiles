@@ -12,6 +12,9 @@ rust = "latest"
 "aqua:hashicorp/terraform" = "1.12.2"
 "aqua:gruntwork-io/terragrunt" = "v0.83.1"
 
+# Cargo
+"cargo:bob-nvim" = "4.1.1"
+
 # Ubi backend
 "ubi:FiloSottile/age" = "v1.2.0"
 "ubi:sharkdp/bat" = "v0.25.0"

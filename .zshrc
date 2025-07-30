@@ -1,5 +1,5 @@
 # Add local bin to path
-export PATH="$HOME/bin:$PATH"
+export PATH="$HOME/.local/share/bob/nvim-bin:$HOME/bin:$PATH"
 if [[ "$(uname)" == "Linux" ]]; then
     export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 fi
@@ -43,8 +43,6 @@ dots() {
 if [[ -f "$HOME/.env" ]]; then
     export $(grep -v '^#' "$HOME/.env" | xargs)
 fi
-
-export ANTHROPIC_API_KEY=$(cat ~/.keys/claude.txt)
 
 # fzf default options
 export FZF_DEFAULT_OPTS=" \
