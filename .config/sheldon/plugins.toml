@@ -1,0 +1,19 @@
+shell = "zsh"
+apply = ["source"]
+
+[plugins]
+
+[plugins.fzf-tab]
+github = "Aloxaf/fzf-tab"
+
+[plugins.syntax-highlighting]
+github = "zdharma-continuum/fast-syntax-highlighting"
+
+[plugins.autosuggestions]
+github = "zsh-users/zsh-autosuggestions"
+
+[plugins.completions]
+github = "zsh-users/zsh-completions"
+
+[plugins.forgit]
+github = "wfxr/forgit"
