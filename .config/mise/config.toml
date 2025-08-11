@@ -19,7 +19,7 @@ rust = "latest"
 "ubi:FiloSottile/age" = "v1.2.0"
 "ubi:sharkdp/bat" = "v0.25.0"
 "ubi:sharkdp/fd" = "v10.2.0"
-"ubi:BurntSushi/ripgrep" = { version = "14.1.1", exe = "rg"}
+"ubi:BurntSushi/ripgrep" = { version = "14.1.1", exe = "rg" }
 "ubi:eza-community/eza" = "v0.22.0"
 "ubi:jqlang/jq" = "jq-1.8.1"
 "ubi:mikefarah/yq" = "v4.45.4"
@@ -31,11 +31,13 @@ rust = "latest"
 "ubi:ducaale/xh" = "v0.24.1"
 "ubi:zellij-org/zellij" = "v0.42.2"
 "ubi:dandavison/delta" = "0.18.2"
-"ubi:siderolabs/talos" = { version = "v1.10.5", rename_exe = "talosctl"}
+"ubi:siderolabs/talos" = { version = "v1.10.5", rename_exe = "talosctl" }
 "ubi:jj-vcs/jj" = "v0.31.0"
 "ubi:mongodb-js/mongosh" = "2.5.5"
 "ubi:rossmacarthur/sheldon" = "0.8.4"
 "ubi:antonmedv/fx" = "37.0.1"
+"ubi:yt-dlp/yt-dlp" = { version = "2025.07.21", rename_exe = "yt" }
+"ubi:charmbracelet/crush" = "v0.4.0"
 
 watchexec = "latest"
 
