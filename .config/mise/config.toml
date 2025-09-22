@@ -9,6 +9,7 @@ rust = "latest"
 "aqua:helm/helm" = "v3.18.4"
 "aqua:hashicorp/terraform" = "1.12.2"
 "aqua:gruntwork-io/terragrunt" = "v0.83.1"
+"aqua:aws/aws-cli" = "latest"
 
 # Cargo
 "cargo:bob-nvim" = "4.1.1"
