@@ -1,9 +1,7 @@
 [tools]
 python = '3.11'
-ruby = '3.3'
 node = '20'
 gcloud = "512.0.0"
-zig = "latest"
 rust = "latest"
 
 # Aqua backend
@@ -14,13 +12,13 @@ rust = "latest"
 
 # Cargo
 "cargo:bob-nvim" = "4.1.1"
+"cargo:eza" = "0.23.3"
 
 # Ubi backend
 "ubi:FiloSottile/age" = "v1.2.0"
 "ubi:sharkdp/bat" = "v0.25.0"
 "ubi:sharkdp/fd" = "v10.2.0"
 "ubi:BurntSushi/ripgrep" = { version = "14.1.1", exe = "rg" }
-"ubi:eza-community/eza" = "v0.22.0"
 "ubi:jqlang/jq" = "jq-1.8.1"
 "ubi:mikefarah/yq" = "v4.45.4"
 "ubi:jesseduffield/lazygit" = "v0.47.2"
@@ -38,6 +36,7 @@ rust = "latest"
 "ubi:antonmedv/fx" = "37.0.1"
 "ubi:yt-dlp/yt-dlp" = { version = "2025.07.21", rename_exe = "yt" }
 "ubi:charmbracelet/crush" = "v0.4.0"
+"ubi:junegunn/fzf" = "v0.65.2"
 
 watchexec = "latest"
 
