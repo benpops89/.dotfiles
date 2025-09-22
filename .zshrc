@@ -3,7 +3,7 @@ export PATH="$HOME/.local/share/bob/nvim-bin:$HOME/bin:$PATH"
 if [[ "$(uname)" == "Linux" ]]; then
     export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 elif [[ "$(uname)" == "Darwin" ]]; then
-    export PATH="/opt/homebrew/bin:$PATH"
+    export PATH="/opt/homebrew/bin:/Users/benpoppy/Library/Python/3.9/bin:$PATH"
 fi
 
 # History settings
