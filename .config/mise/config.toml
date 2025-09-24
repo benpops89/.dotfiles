@@ -1,6 +1,7 @@
 [tools]
-python = '3.11'
-node = '20'
+python = "3.12"
+node = "20"
+go = "1.24"
 gcloud = "512.0.0"
 rust = "latest"
 
