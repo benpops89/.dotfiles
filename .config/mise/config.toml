@@ -5,6 +5,7 @@ node = '20'
 gcloud = "512.0.0"
 zig = "latest"
 rust = "latest"
+bun = "latest"
 
 # Aqua backend
 "aqua:kubernetes/kubectl" = "1.33.2"
@@ -38,6 +39,10 @@ rust = "latest"
 "ubi:antonmedv/fx" = "37.0.1"
 "ubi:yt-dlp/yt-dlp" = { version = "2025.07.21", rename_exe = "yt" }
 "ubi:charmbracelet/crush" = "v0.4.0"
+"ubi:tailwindlabs/tailwindcss" = "v4.1.12"
+"ubi:jdx/fnox" = "v1.7.0"
+"ubi:sst/opencode" = { version = "v1.0.127", matching = "x64.tar.gz" }
+
 
 watchexec = "latest"
 

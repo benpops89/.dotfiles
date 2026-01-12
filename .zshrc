@@ -22,6 +22,8 @@ zstyle ':fzf-tab:*' use-fzf-default-opts yes
 autoload -U compinit
 compinit
 
+export FNOX_AGE_KEY=$(cat ~/.age/key.txt | grep "AGE-SECRET-KEY")
+
 # Define alias
 alias ls="eza --icons --group-directories-first"
 alias ll="eza -la --icons --group-directories-first"
@@ -62,3 +64,11 @@ eval "$(fzf --zsh)"
 eval "$(zoxide init zsh)"
 eval "$(sheldon source)"
 eval "$(starship init zsh)"
+eval "$(fnox activate zsh)"
+
+# bun completions
+[ -s "/home/benpoppy/.bun/_bun" ] && source "/home/benpoppy/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
