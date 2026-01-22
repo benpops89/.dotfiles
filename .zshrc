@@ -22,8 +22,6 @@ zstyle ':fzf-tab:*' use-fzf-default-opts yes
 autoload -U compinit
 compinit
 
-export FNOX_AGE_KEY=$(cat ~/.age/key.txt | grep "AGE-SECRET-KEY")
-
 # Define alias
 alias ls="eza --icons --group-directories-first"
 alias ll="eza -la --icons --group-directories-first"
@@ -35,11 +33,6 @@ alias on="obsidian new"
 alias aoc="uv run cli.py"
 alias lg="lazygit"
 alias mr="mise run"
-
-# Define function for managing dot files
-dots() {
-    git --git-dir=$HOME/.dotfiles --work-tree=$HOME "$@"
-}
 
 # Load environment variables from .env file if it exists
 if [[ -f "$HOME/.env" ]]; then
@@ -72,3 +65,6 @@ eval "$(fnox activate zsh)"
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+# opencode
+export PATH=/home/ben/.opencode/bin:$PATH
