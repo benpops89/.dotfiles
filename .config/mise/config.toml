@@ -2,7 +2,7 @@
 python = '3.11'
 ruby = '3.3'
 node = '20'
-gcloud = "512.0.0"
+# gcloud = "latest"
 zig = "latest"
 rust = "latest"
 bun = "latest"
@@ -16,33 +16,38 @@ bun = "latest"
 # Cargo
 "cargo:bob-nvim" = "4.1.1"
 
-# Ubi backend
-"ubi:FiloSottile/age" = "v1.2.0"
-"ubi:sharkdp/bat" = "v0.25.0"
-"ubi:sharkdp/fd" = "v10.2.0"
-"ubi:BurntSushi/ripgrep" = { version = "14.1.1", exe = "rg" }
-"ubi:eza-community/eza" = "v0.22.0"
-"ubi:jqlang/jq" = "jq-1.8.1"
-"ubi:mikefarah/yq" = "v4.45.4"
-"ubi:jesseduffield/lazygit" = "v0.47.2"
-"ubi:astral-sh/uv" = "0.7.20"
-"ubi:getsops/sops" = "v3.10.2"
-"ubi:ajeetdsouza/zoxide" = "0.9.8"
-"ubi:starship/starship" = "v1.23.0"
-"ubi:ducaale/xh" = "v0.24.1"
-"ubi:zellij-org/zellij" = "v0.42.2"
-"ubi:dandavison/delta" = "0.18.2"
-"ubi:siderolabs/talos" = { version = "v1.10.5", rename_exe = "talosctl" }
-"ubi:jj-vcs/jj" = "v0.31.0"
-"ubi:mongodb-js/mongosh" = "2.5.5"
-"ubi:rossmacarthur/sheldon" = "0.8.4"
-"ubi:antonmedv/fx" = "37.0.1"
-"ubi:yt-dlp/yt-dlp" = { version = "2025.07.21", rename_exe = "yt" }
-"ubi:charmbracelet/crush" = "v0.4.0"
-"ubi:tailwindlabs/tailwindcss" = "v4.1.12"
-"ubi:jdx/fnox" = "v1.7.0"
-"ubi:sst/opencode" = { version = "v1.0.127", matching = "x64.tar.gz" }
+# Github backend
+"github:FiloSottile/age" = "v1.2.0"
+"github:sharkdp/bat" = "v0.25.0"
+"github:sharkdp/fd" = "v10.2.0"
+"github:BurntSushi/ripgrep" = { version = "14.1.1", exe = "rg" }
+"github:eza-community/eza" = "v0.22.0"
+"github:jqlang/jq" = "jq-1.8.1"
+"github:mikefarah/yq" = "v4.45.4"
+"github:jesseduffield/lazygit" = "v0.47.2"
+"github:astral-sh/uv" = "0.7.20"
+"github:getsops/sops" = "v3.10.2"
+"github:ajeetdsouza/zoxide" = "0.9.8"
+"github:starship/starship" = "v1.23.0"
+"github:ducaale/xh" = "v0.24.1"
+"github:zellij-org/zellij" = "v0.42.2"
+"github:dandavison/delta" = "0.18.2"
+"github:siderolabs/talos" = { version = "v1.10.5", rename_exe = "talosctl" }
+"github:jj-vcs/jj" = "v0.31.0"
+"github:mongodb-js/mongosh" = "2.5.5"
+"github:rossmacarthur/sheldon" = "0.8.4"
+"github:antonmedv/fx" = "37.0.1"
+"github:yt-dlp/yt-dlp" = { version = "2025.07.21", rename_exe = "yt" }
+"github:charmbracelet/crush" = "v0.4.0"
+"github:tailwindlabs/tailwindcss" = "v4.1.12"
+"github:jdx/fnox" = "v1.7.0"
 
+# NPM backend
+"npm:opencode-ai" = "latest"
+
+[env]
+MISE_NPM_BUN = true
+EDITOR = "nvim"
 
 watchexec = "latest"
 
