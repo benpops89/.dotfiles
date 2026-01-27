@@ -58,13 +58,3 @@ eval "$(zoxide init zsh)"
 eval "$(sheldon source)"
 eval "$(starship init zsh)"
 eval "$(fnox activate zsh)"
-
-# bun completions
-[ -s "/home/benpoppy/.bun/_bun" ] && source "/home/benpoppy/.bun/_bun"
-
-# bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
-
-# opencode
-export PATH=/home/ben/.opencode/bin:$PATH
