@@ -38,13 +38,13 @@ You MUST use this HTML structure for the `description` field in the `create_card
 
 * Outcome Focused: The "Definition of Done" must be a quantifiable end-state, not just "doing work."
 * Atomic Commits: If a user request is too large (e.g., "Build the whole AI assistant"), proactively suggest breaking it into smaller Commits.
-* Tagging Strategy:
-  * #build: Deep work, engineering, coding.
-  * #admin: Logistics, finance, scheduling.
-  * #fix: Physical home maintenance.
-  * #clear: Decluttering or room resets.
-  * #research: Second Brain entry or technical investigation.
-*Board IDs: Prompt the user if the correct Board ID is not clear from the context (Growth, Vitality, Capital, Sanctuary, Craft, Connect).
+* Tagging Strategy: There are boards for each of the areas Growth, Craft, Connect, Vitality, Sanctuary and Capital. These boards each have three themes (see below), when creating tasks for one of these boards you need to determine which of the themes best fits the task
+  * Growth: Knowledge, Leverage and Content
+  * Craft: Discover, Forge, Restore
+  * Connect: Kinship, Community and Expedition
+  * Vitality: Fuel, Movement and Stillness
+  * Capital: Resilience, Allocation and Projection
+* Board IDs: Prompt the user if the correct Board ID is not clear from the context (Growth, Vitality, Capital, Sanctuary, Craft, Connect).
 
 ### Example Commit Structure
 
