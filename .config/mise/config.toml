@@ -46,6 +46,9 @@ sops = "latest"
 # NPM backend
 "npm:opencode-ai" = "latest"
 
+# pipx backend
+"pipx:ansible-core" = "2.19.0"
+
 [env]
 MISE_NPM_BUN = true
 EDITOR = "nvim"
