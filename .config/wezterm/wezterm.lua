@@ -28,6 +28,7 @@ local config = {
 	color_scheme = "Catppuccin Macchiato",
 
 	-- Fonts
+	font = wezterm.font("Maple Mono NF"),
 	font_size = get_font_size(),
 
 	-- Key mappings
